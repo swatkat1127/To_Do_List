@@ -9,6 +9,7 @@ class TasksList extends StatelessWidget {
       children: <Widget>[
         TasksTile(),
         TasksTile(),
+        TasksTile(),
       ],
     );
   }
