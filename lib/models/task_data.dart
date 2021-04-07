@@ -10,4 +10,8 @@ class TaskData extends ChangeNotifier {
     Task(taskname: 'write 3 lines',),
   ];
 
+  int get taskCount {
+    return tasks.length;
+
+  }
 }
