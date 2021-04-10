@@ -7,8 +7,8 @@ class TaskData extends ChangeNotifier {
 
   List<Task> _tasks = [
     Task(taskname: 'flutter Section 12 learning',),
-    Task(taskname: 'yoga',),
-    Task(taskname: 'write 3 lines',),
+    Task(taskname: 'Yoga',),
+    Task(taskname: 'Write 3 lines',),
   ];
 
   UnmodifiableListView<Task> get tasks {
